@@ -89,12 +89,12 @@ BOARD_USES_METADATA_PARTITION := true
 TARGET_RECOVERY_FSTAB := device/xiaomi/cepheus/fstab.hardware
 
 # Android Verified Boot
-BOARD_AVB_ENABLE := false
-BOARD_BUILD_DISABLED_VBMETAIMAGE := true
+#BOARD_AVB_ENABLE := false
+#BOARD_BUILD_DISABLED_VBMETAIMAGE := true
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_FBE := true
+TW_INCLUDE_CRYPTO_FBE := true
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
